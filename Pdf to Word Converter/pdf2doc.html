@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf-Doc Converter</title>
+    <link rel="stylesheet" href="pdf2doc.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <center>
+                <h1>PDF to WORD Converter</h1>
+                <h2>Convert your PDF to WORD documents with incredible accuracy.</h2>
+                <br>
+                <input type="file" id="pdfFile" accept=".pdf"><br>
+                <button onclick="convertToWord()">Convert</button>
+            </center>
+            <div class="output-container">
+                <center>
+                    <a id="downloadLink" href="#" download>Download Word Document</a>
+                    <div id="outputText"></div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <center>
+            <h4>Made By <span>Mohd Amaan</span></h4>
+        </center>
+    </div>
+</body>
+<script src="pdf2doc.js"></script>
+</html>
